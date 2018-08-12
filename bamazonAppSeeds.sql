@@ -27,39 +27,39 @@ CREATE TABLE products (
     department_name VARCHAR(50) NOT NULL,
     price DECIMAL (10,2) NOT NULL,
     stock_quantity INT NOT NULL,
-    PRIMARY (id)
+    PRIMARY KEY (id)
 );
 
 
-INSERT INTO products (product_name)
-VALUES ("A Piano Licked by Miley Cyrus");
+INSERT INTO products (item_id, product_name, department_name, price,stock_quantity)
+VALUES (1, "A Piano Licked by Miley Cyrus", "Arts & Entertainment", 25000, 1);
 
-INSERT INTO products (product_name)
-VALUES ("Justin Timberlake's French Toast");
+INSERT INTO products (item_id, product_name, department_name, price,stock_quantity)
+VALUES (2, "Justin Timberlake's French Toast", "Food", 500, 1);
 
-INSERT INTO products (product_name)
-VALUES ("Scarlett Johansson's Used Tissue");
+INSERT INTO products (item_id, product_name, department_name, price,stock_quantity)
+VALUES (3, "Scarlett Johansson's Used Tissue", "Toiletries", 2500, 1);
 
-INSERT INTO products (product_name)
-VALUES ("William Shatner's Kidney Stone");
+INSERT INTO products (item_id, product_name, department_name, price,stock_quantity)
+VALUES (4, "William Shatner's Kidney Stones", "Health & Wellness", 10000, 5);
 
-INSERT INTO products (product_name)
-VALUES ("John F. Kennedy's Boxer Shorts");
+INSERT INTO products (item_id, product_name, department_name, price,stock_quantity)
+VALUES (5, "John F. Kennedy's Boxer Shorts", "Clothing",2500, 8);
 
-INSERT INTO products (product_name)
-VALUES ("Winston Churchill's False Teeth");
+INSERT INTO products (item_id, product_name, department_name, price,stock_quantity)
+VALUES (6, "Winston Churchill's False Teeth", "Health & Wellness", 15000, 3);
 
-INSERT INTO products (product_name)
-VALUES ("John Lennon's Tooth");
+INSERT INTO products (item_id, product_name, department_name, price,stock_quantity)
+VALUES (7, "John Lennon's Tooth", "Health & Wellness", 20000, 1);
 
-INSERT INTO products (product_name)
-VALUES ("James Blunt's Sister");
+INSERT INTO products (item_id, product_name, department_name, price,stock_quantity)
+VALUES (8, "James Blunt's Sister", "Miscellaneous", 1, 1);
 
-INSERT INTO products (product_name)
-VALUES ("A Decade-Old Grilled Cheese Sandwich");
+INSERT INTO products (item_id, product_name, department_name, price,stock_quantity)
+VALUES (9, "A Decade-Old Grilled Cheese Sandwich", "Food", 15000, 5);
 
-INSERT INTO products (product_name)
-VALUES ("A Suit of Armour for a Guinea Pig");
+INSERT INTO products (item_id, product_name, department_name, price,stock_quantity)
+VALUES (10, "A Suit of Armour for a Guinea Pig", "Arts & Entertainment", 15000, 2);
 
 
 
