@@ -2,9 +2,11 @@
   "name": "bamazon",
   "version": "1.0.0",
   "description": "amazon-like storefront",
-  "main": "bamazonApp.js",
+  "main": "bamazon2.js",
   "dependencies": {
-    "mysql": "^2.16.0"
+    "inquirer": "^6.1.0",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.3"
   },
   "devDependencies": {},
   "scripts": {
